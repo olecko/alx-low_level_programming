@@ -23,7 +23,7 @@ int coinConverter(int i)
 			i -= 10;
 		else if (i % 5 == 0)
 			i -= 5;
-		else if (i % 2 == 0)
+			else if (i % 2 == 0)
 		{
 			if (i % 10 == 6)
 				i -= 1;
@@ -45,7 +45,7 @@ int coinConverter(int i)
  * @argv: Array name
  * Return: 0 if exactly 1 argument is passed into this program, 1 otherwise
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	int i, coin;
 
