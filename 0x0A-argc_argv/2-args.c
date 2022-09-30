@@ -3,8 +3,8 @@
 
 /**
  * main - Prints all arguments passed into main
- * Number of command line arguments
- * Array name
+ * @argc: Number of command line arguments
+ * @argv: Array name
  * Return: 0.
  */
 
