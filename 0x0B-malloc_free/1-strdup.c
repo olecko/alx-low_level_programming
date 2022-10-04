@@ -9,7 +9,7 @@
  * Return: If str == NULL or insufficient memory is available - NULL.
  *	   Otherwise - a pointer to the duplicated string.
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *duplicate;
 	int index, len = 0;
