@@ -1,8 +1,8 @@
-[200~all : main.o school.o
+all : main.o school.o
 		gcc -o school main.o school.o
 
 main.o : main.c m.h
 		gcc -c main.c
 
-holberton.o : school.c m.h
+school.o : school.c m.h
 		gcc -c school.c
